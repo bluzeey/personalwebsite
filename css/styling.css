@@ -20,6 +20,9 @@ p{
     font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
     font-size: 75%;
 }
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
 details{
     font-style: italic;
@@ -30,4 +33,5 @@ footer{
 li{
     font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
     text-align:center;
+    font-size: 75%;
 }
