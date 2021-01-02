@@ -27,9 +27,7 @@ details{
 footer{
     color: #666666;
 }
-ul{
-    text-align:center;
-}
 li{
     font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
+    text-align:center;
 }
