@@ -1,22 +1,25 @@
-h1{
-    background: #B3B5B6;
-    font-size:150%;
-}
 header{
     background: #666666;
     text-align: center;
 }
 h1{
     color: aquamarine;
+    background: #B3B5B6;
+    font-size:150%;
 }
 nav{
     font-variant: small-caps;
     font-size: 150%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
 }
 h2{
     color: chartreuse;
     background: coral;
+}
+p{
+    font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
+    font-size:150%;
+}
 }
 details{
     font-style: italic;
