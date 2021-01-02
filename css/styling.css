@@ -18,7 +18,7 @@ h2{
 }
 p{
     font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
- 
+    font-size: 75%;
 }
 }
 details{
@@ -29,4 +29,7 @@ footer{
 }
 ul{
     text-align:center;
+}
+li{
+    font-family:whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
 }
