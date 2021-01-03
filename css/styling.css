@@ -1,11 +1,13 @@
 header{
-    background: #777a99;
     text-align: center;
 }
 h1{
     color: aquamarine;
     background: #9cb0b9;
     font-size:150%;
+}
+body{
+    background-image:"imgs\WhatsApp Image 2021-01-03 at 10.50.05 PM.jpeg";
 }
 nav{
     font-variant: small-caps;
