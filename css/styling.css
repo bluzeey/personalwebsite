@@ -8,6 +8,9 @@ h1{
 }
 body{
     background:url(../imgs/background.png.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 nav{
     font-variant: small-caps;
