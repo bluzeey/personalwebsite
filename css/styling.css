@@ -7,7 +7,7 @@ h1{
     font-size:150%;
 }
 body{
-    background-image:url(../imgs/background.png.jpeg);
+    background:url(../imgs/background.png.jpeg);
 }
 nav{
     font-variant: small-caps;
