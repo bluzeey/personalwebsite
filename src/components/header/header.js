@@ -1,19 +1,48 @@
-import React from 'react'
-import Navbar from '../navbar/navbar'
+import Link from 'next/link';
+import React from 'react';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { DiCssdeck } from 'react-icons/di';
 
-const Header = () => {
-    return (
-            <header>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="assets/imgs/myLogo.png" alt="my Logo"
-                    className="h-24 w-1/2"/>
-            </div>
-            <button className="nav-toggle" aria-label="toggle-navigation">
-                <span className="hamburger"></span>
-            </button>
-            <Navbar/>
-        </header>
-    )
-}
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-export default Header
+const Header = () =>  (
+  <Container>
+    <Div1>
+      <Link href="/">
+        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        </a>
+      </Link>
+    </Div1>
+    <Div2>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#tech">
+          <NavLink>Technologies</NavLink>
+        </Link>
+      </li>        
+      <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>        
+    </Div2>
+      <Div3>
+        <SocialIcons href="https://google.com">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://google.com">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://google.com">
+          <AiFillInstagram size="3rem"/>
+        </SocialIcons>
+      </Div3>
+    </Container>
+);
+
+export default Header;
