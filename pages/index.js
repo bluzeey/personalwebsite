@@ -7,10 +7,10 @@ export default function Home() {
         <title>Portfolio</title>
         <link rel="icon" href="/devicon.png" />
       </Head>
-      <div>
-        <img className="bg-cover w-screen h-full bg-no-repeat bg-fixed" src='/background.png' alt="my-life"/>
-      </div>
+      <body className="h-screen bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500">
       <Navbar/>
+      </body>
     </div>
+    
   )
 }

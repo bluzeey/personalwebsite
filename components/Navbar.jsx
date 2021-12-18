@@ -1,11 +1,12 @@
+import Link from "next/link"
 function Navbar() {
     return (
-        <div className="absolute flex items-center justify-around">
-            <p>Home</p>
-            <p>About</p>
-            <p>Resume</p>
-            <p>Projects</p>
-            <p>Contact</p>
+        <div className="flex items-center justify-around text-white text-lg h-16 font-semibold">
+            <Link href='/' className="hover:blue-400 cursor-pointer">HOME</Link>
+            <a>ABOUT</a>
+            <a>RESUME</a>
+            <a>PROJECTS</a>
+            <a>CONTACT</a>
         </div>
     )
 }
