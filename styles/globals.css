@@ -4,6 +4,6 @@
 
 @layer components{
     .link{
-        @apply hover:bg-pink-300 transition duration-500 hover:scale-125 px-6 py-3 cursor-pointer;
+        @apply hover:bg-pink-300 transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer;
     }
 }
