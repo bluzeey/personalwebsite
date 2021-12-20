@@ -1,7 +1,15 @@
+import {LinkedIn, FacebookOutlined, GitHub} from '@mui/icons-material'
 function Footer() {
     return (
-        <div>
-            <p>This is the footer</p>
+        <div className="p-2 bg-gray-700">
+            <div className="flex justify-around">
+               <FacebookOutlined className="text-blue-700" />
+               <GitHub/>
+               <LinkedIn/>
+            </div>
+            <div>
+                <p>Made with NextJs and Tailwind!</p>
+            </div>
         </div>
     )
 }
