@@ -9,12 +9,11 @@ export default function Home() {
         <title>Portfolio</title>
         <link rel="icon" href="/devicon.png" />
       </Head>
-      <div className="h-screen bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500">
+      <div className="h-screen bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700">
       <Navbar/>
       <Main/>
       <Footer/>
       </div>
     </div>
-    
   )
 }

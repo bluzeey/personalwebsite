@@ -8,7 +8,7 @@ function Footer() {
                <LinkedIn/>
             </div>
             <div>
-                <p>Made with NextJs and Tailwind!</p>
+                <p className="text-right">Made with NextJs and Tailwind!</p>
             </div>
         </div>
     )
