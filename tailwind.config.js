@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   mode:'jit',
   content: [
@@ -5,7 +6,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend:{
+      backgroundImage: {
+           'gradient-radial-at-b': 'radial-gradient(ellipse at bottom, var(--tw-gradient-stops))', 
+        },
+    },
+    screens: {
+      'xs': '450px',
+      ...defaultTheme.screens,
+    },
   },
   plugins: [],
 }
+

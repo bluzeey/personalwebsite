@@ -2,16 +2,16 @@ import Animation from './Animation';
 function Main() {
     return (
         <>
-        <div className="flex flex-col w-2/3 m-auto p-0 md:flex-row rounded shadow-lg">
-        <div className="flex flex-col break-words font-bold  b-1 leading-tight">
-        <h1 className="m-auto text-5xl">Hi, I am Sahil.</h1>  
-        <p className="text-grey-darker text-2xl">I am a final year college student who loves coding , travelling, taking care of my plants and sketching. </p>
-        </div>
-        <Animation/>
+        <div className="flex flex-col w-2/3 m-auto p-0 md:flex-row rounded">
+          <div className="flex flex-col justify-center font-bold  b-1 leading-tight">
+            <h1 className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 m-2">Hi, I am Sahil.</h1>  
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-red-200 via-red-300 to-yellow-200  text-2xl">I am a final year college student who loves coding , travelling, taking care of my plants and sketching. </p>
+          </div>
+          <Animation/>
         </div>
 
-        <div className="bg-gray-700">
-            <h1 className="text-center text-2xl text-green-600">Some of my projects</h1>
+        <div className="p-4 bg-gradient-radial-at-b from-gray-400 via-gray-600 to-gray-900">
+            <h1 className="text-center text-5xl font-bold text-white mb-4">Some of my projects</h1>
             <div className="flex justify-around">
                 <div className="bg-white rounded w-1/4">
                     <img className="rounded m-auto" src="/dummy.jpg"/>
@@ -35,9 +35,11 @@ function Main() {
                        Ut enim ad minim veniam, quis nostrud exercitation .</p>
                 </div>
             </div>
+          </div>
             <div className="bg-white">
-                <h1>Contact me at:</h1>
-                <div class="">
+                <h1 className="text-3xl text-center">Contact me at:</h1>
+                  <div className="flex justify-around">
+                  <div>
                     <div>
                         <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
                         <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -59,9 +61,12 @@ function Main() {
                         Send Message
                         </button>
                     </div>
+                  </div>
+                  <div>
+                      <img className="" src="/contact.PNG"/>
+                  </div>
                 </div>
             </div>
-        </div>
         </>
     )
 }
