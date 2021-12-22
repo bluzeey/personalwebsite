@@ -63,7 +63,7 @@ function Main() {
                     </div>
                   </div>
                   <div>
-                      <img className="" src="/contact.PNG"/>
+                      <img className="w-1/2" src="/contact.PNG"/>
                   </div>
                 </div>
             </div>
