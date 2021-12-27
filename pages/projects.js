@@ -11,6 +11,7 @@ function projects() {
         </Head>
         <div className="first-gradient-color min-h-screen">
             <Navbar/>
+            <h1 className="text-5xl font-bold text-center p-5 text-transparent bg-clip-text second-gradient-color">My Projects</h1>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center p-5">
                 <ProjectCard/>
                 <ProjectCard/>

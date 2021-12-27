@@ -1,7 +1,8 @@
 import Link from "next/link"
 function Navbar() {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-around text-white text-lg p-4 font-semibold">
+        <div className="flex flex-col md:flex-row items-center 
+        justify-around bg-clip-text text-transparent second-gradient-color text-lg p-4 font-semibold">
             <a href='/' className="link">HOME</a>
             <a href="/about" className="link">ABOUT</a>
             <a className="link">RESUME</a>
