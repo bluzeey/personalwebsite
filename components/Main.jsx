@@ -1,11 +1,12 @@
 import Animation from './Animation';
+import Contact from './Contact';
 function Main() {
     return (
         <>
         <div className="flex flex-col w-2/3 m-auto p-0 md:flex-row rounded">
           <div className="flex flex-col justify-center font-bold  b-1 leading-tight">
-            <h1 className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 m-2">Hi, I am Sahil.</h1>  
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-red-200 via-red-300 to-yellow-200  text-2xl">I am a final year college student who loves coding , travelling, taking care of my plants and sketching. </p>
+            <h1 className="text-5xl text-transparent text-white m-2">Hi, I am Sahil.</h1>  
+            <p className="text-transparent bg-clip-text text-white text-2xl">I am a final year college student who loves coding , travelling, taking care of my plants and sketching. </p>
           </div>
           <Animation/>
         </div>
@@ -35,38 +36,9 @@ function Main() {
                        Ut enim ad minim veniam, quis nostrud exercitation .</p>
                 </div>
             </div>
+                <button className="text-center">See More</button>
           </div>
-            <div className="bg-white">
-                <h1 className="text-3xl text-center">Contact me at:</h1>
-                  <div className="flex justify-around">
-                  <div>
-                    <div>
-                        <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                        <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text" placeholder=""/>
-                    </div>
-                    <div class="mt-8">
-                        <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-                        <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text"/>
-                    </div>
-                    <div class="mt-8">
-                        <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-                        <textarea
-                        class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
-                    </div>
-                    <div class="mt-8">
-                        <button
-                        class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                        Send Message
-                        </button>
-                    </div>
-                  </div>
-                  <div>
-                      <img className="w-1/2" src="/contact.PNG"/>
-                  </div>
-                </div>
-            </div>
+          <Contact/>
         </>
     )
 }
