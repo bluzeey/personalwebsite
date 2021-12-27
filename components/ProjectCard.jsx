@@ -1,6 +1,6 @@
 function ProjectCard() {
     return (
-        <div class="rounded overflow-hidden shadow-lg bg-white">
+        <div class="rounded overflow-hidden shadow-lg bg-white max-w-md">
             <img class="w-full" src="/google.PNG" alt="Mountain"/>
                 <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Mountain</div>

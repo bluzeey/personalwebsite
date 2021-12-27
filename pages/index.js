@@ -9,7 +9,7 @@ export default function Home() {
         <title>Portfolio</title>
         <link rel="icon" href="/devicon.png" />
       </Head>
-      <div className="bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200">
+      <div className="first-gradient-color">
       <Navbar/>
       <Main/>
       <Footer/>
