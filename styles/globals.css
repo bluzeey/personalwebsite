@@ -6,4 +6,13 @@
     .link{
         @apply hover:bg-pink-300 transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer;
     }
+    .tag{
+        @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
+    }
+}
+
+@layer utilities {
+    .clip-path-slant-down-right {
+        clip-path: polygon(41% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
 }
