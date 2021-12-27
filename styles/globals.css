@@ -9,6 +9,12 @@
     .tag{
         @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
     }
+    .first-gradient-color{
+        @apply bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200;
+    }
+    .second-gradient-color{
+        @apply bg-gradient-radial-at-b from-gray-400 via-gray-600 to-gray-900
+    }
 }
 
 @layer utilities {

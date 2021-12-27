@@ -1,7 +1,7 @@
 function Contact() {
     return (
-            <div class="p-5 items-center h-screen w-full bg-blue-400">
-                <div class="font-inter flex sm:flex-col md:flex-col justify-between bg-white rounded shadow-2xl mx-auto">
+            <div class="p-5 items-center min-h-screen bg-gray-50">
+                <div class="font-inter flex xs:flex-col xs:w-full sm:flex-col sm:w-full md:flex-row h-screen-xl w-1/2 justify-around bg-white rounded shadow-2xl mx-auto">
                     <div className="p-8">
                     <h1 class="text-gray-800 text-2xl font-bold mb-6">Contact Me</h1>
                     <form action="/" method="post">
@@ -20,7 +20,7 @@ function Contact() {
                         <button class="block bg-teal-400 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Send Message</button>
                     </form>
                     </div>
-                    <img class="w-96" src="/contact.jpg"/>         
+                    <img class="sm:w-full w-96 relative" src="/contact.jpg"/>         
                 </div>
             </div>
     )
