@@ -7,17 +7,17 @@
   },
   {
     "id":"2",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG"
+    "title":"Whatsapp Clone",
+    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "tags":["NextJS","Styled Components"],
+    "image":"/whatsapp.PNG"
   },
   {
     "id":"3",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG"
+    "title":"News AI Application",
+    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
+    "tags":["ReactJS","AlanAi","Material-UI"],
+    "image":"/alanNews.PNG"
   },
   { 
     "id":"4",
@@ -28,10 +28,10 @@
   },
   {
     "id":"5",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG"
+    "title":"Twitter Dev",
+    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "tags":["ReactJS","Mongoose","Graphql"],
+    "image":"/twitterDev.PNG"
   },
   {
     "id":"6",
