@@ -6,16 +6,16 @@ function Contact() {
                     <h1 className="bg-clip-text text-transparent text-yellow-500 text-2xl font-bold mb-6">Contact Me</h1>
                     <form action="/" method="post">
                         <div className="flex flex-col mb-4">
-                            <label className="mb-2 font-bold text-lg text-yellow-500 " for="name">Name</label>
+                            <label className="mb-2 font-bold text-lg text-yellow-500 " htmlFor="name">Name</label>
                             <input className="border py-2 px-3 text-grey-800" type="text" name="name" id="name"/>
                         </div>
                         <div className="flex flex-col mb-4">
-                            <label className="mb-2 font-bold text-lg text-yellow-500" for="email">Email</label>
+                            <label className="mb-2 font-bold text-lg text-yellow-500" htmlFor="email">Email</label>
                             <input className="border py-2 px-3 text-grey-800" type="email" name="email" id="email"/>
                         </div>
                         <div className="flex flex-col mb-4">
-                            <label className="mb-2 font-bold text-lg text-yellow-500" for="password">Message</label>
-                            <textarea className="border py-2 px-3 text-grey-800" type="text" name="password" id="password"/>
+                            <label className="mb-2 font-bold text-lg text-yellow-500" htmlFor="message">Message</label>
+                            <textarea className="border py-2 px-3 text-grey-800" type="text" name="message" id="message"/>
                         </div>
                         <button className="block bg-yellow-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium uppercase text-lg mx-auto p-4 rounded" type="submit">Send Message</button>
                     </form>

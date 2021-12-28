@@ -21,10 +21,10 @@
   },
   { 
     "id":"4",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG"
+    "title":"Voice Powered Expense Tracker",
+    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "tags":["ReactJS","Speechly"],
+    "image":"/expenseTracker.PNG"
   },
   {
     "id":"5",
@@ -35,9 +35,9 @@
   },
   {
     "id":"6",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG"
+    "title":"Netflix Clone",
+    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "tags":["ReactJS","Styled Components"],
+    "image":"/netflix.PNG"
   }]
 
