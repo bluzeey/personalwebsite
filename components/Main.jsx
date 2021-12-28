@@ -17,7 +17,7 @@ function Main() {
 
         <div className="file:p-4 second-gradient-color font-inter">
             <h1 className=" text-center text-5xl font-bold text-transparent bg-clip-text  bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200 m-2 p-4">Some of my projects</h1>
-                 <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-7">
+                 <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-7">
                   {Projects.slice(0,3).map(project=>(
                     <ProjectCard key={project.id} title={project.title} description={project.description} image={project.image} tags={project.tags}/>
                   ))}
