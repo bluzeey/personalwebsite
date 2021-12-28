@@ -1,4 +1,3 @@
-import Link from "next/link"
 function Navbar() {
     return (
         <div className="flex flex-col md:flex-row items-center 
