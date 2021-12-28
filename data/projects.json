@@ -1,6 +1,6 @@
 [{
     "id":"1",
-    "title":"Page 1",
+    "title":"Google Clone",
     "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG"
@@ -42,7 +42,7 @@
   },
   {
     "id":"8",
-    "title":"Page2",
+    "title":"Whatsapp Clone",
     "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG"

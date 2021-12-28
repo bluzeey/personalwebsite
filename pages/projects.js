@@ -26,9 +26,9 @@ function projects() {
                     <ProjectCard key={project.id} title={project.title} description={project.description} image={project.image} tags={project.tags}/>
                   )))}
             </div> 
-            <div className="flex justify-center">
-                <ChevronRightIcon className="h10 w-10" onClick={()=>setPage(1)}/>
-                <ChevronLeftIcon className="h10 w-10" onClick={()=>setPage(0)}/>
+            <div className="flex justify-center p-2">
+                {page===0 ? (<ChevronRightIcon sx={{ fontSize: 40 }} className="h-10 w-10 rounded-full bg-white cursor-pointer" onClick={()=>setPage(1)}/>)
+                :(<ChevronLeftIcon sx={{ fontSize: 40 }} className="h-10 w-10 rounded-full bg-white cursor-pointer" onClick={()=>setPage(0)}/>)}
             </div>      
         </div>
         <Footer/>
