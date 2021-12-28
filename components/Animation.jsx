@@ -1,6 +1,6 @@
 function Animation() {
     return (
-    <div class="animated-block">
+    <div className="animated-block">
         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600"
          className="m-auto xs:w-11/12 sm:w-3/4 md:w-[18rem] lg:w-[24rem] xl:w-[32rem]">
         <defs>
