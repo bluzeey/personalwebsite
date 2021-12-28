@@ -1,0 +1,43 @@
+[{
+    "id":"1",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  {
+    "id":"2",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  {
+    "id":"3",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  { 
+    "id":"4",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  {
+    "id":"5",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  {
+    "id":"6",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  }]
+
