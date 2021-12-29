@@ -1,5 +1,8 @@
 import Switch from '@mui/material/Switch'
+import {useRecoilState} from 'recoil'
+import {languageState} from '../atom/languageAtom'
 function Navbar() {
+    const [language,setLanguage]=useRecoilState(languageState)
     return (
         <div className="flex flex-col md:flex-row items-center 
         justify-around bg-clip-text text-transparent second-gradient-color text-lg p-4 font-semibold">
@@ -9,7 +12,7 @@ function Navbar() {
             <a href="/contact" className="link">CONTACT</a>
             <div className="flex w-15 items-center">
               EN
-              <Switch defaultChecked />
+              <Switch onClick={()=>{setLanguage(prevState=>!prevState)}}/>
               DE
             </div>
         </div>
