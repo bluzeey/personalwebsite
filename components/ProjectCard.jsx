@@ -11,10 +11,14 @@ function ProjectCard({id,title,description,image,tags}) {
                 {description}
                 </p>
             </div>
-            <div className="px-6 pt-4 pb-2">
+            <div className="flex justify-center">
                 {tags.map(tag=>(
                     <span className="tag">{tag}</span>
                 ))}
+            </div>
+            <div className="flex p-2 justify-center">
+                <a href="" className="project-link">Code</a>
+                <a href="" className="project-link">Live</a>
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import {Myprojects} from '../../data/projects.json'
+import {Myprojects} from '../../data/english.json'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 function projectDetails({props:{id}}) {
