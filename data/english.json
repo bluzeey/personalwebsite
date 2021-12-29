@@ -1,5 +1,6 @@
 { "greetings":"Hi, I am Sahil",
   "intro":"I am a final year college student who loves coding,travelling,taking care of my plants and sketching.",
+  "projectHeading":"Some of my projects",
   "Myprojects":[{
     "id":"1",
     "title":"Google Clone",

@@ -1,30 +1,31 @@
 { "greetings":"Hallo, Mein name ist Sahil",
   "intro":"Ich bin ein College-Student im letzten Jahr, der es liebt, zu programmieren, zu wandern und sich um meine Pflanzen zu kümmern",
+  "projectHeading":"Einige meiner Projekte",
   "Myprojects":[{
     "id":"1",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "title":"Google Klon",
+    "description":"In diesem Projekt habe ich einen Google Klon mit Next JS und Tailwind erstellt.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG"
   },
   {
     "id":"2",
-    "title":"Whatsapp Clone",
-    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "title":"Whatsapp Klon",
+    "description":"In diesem Projekt habe ich einen Whatsapp Klon mit Next JS und Styled-Components erstellt.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG"
   },
   {
     "id":"3",
     "title":"News AI Application",
-    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
+    "description":"In diesem Projekt habe ich mit React JS und Alan AI eine Voice Powered Ai News Application erstellt.",
     "tags":["ReactJS","AlanAi","Material-UI"],
     "image":"/alanNews.PNG"
   },
   { 
     "id":"4",
     "title":"Voice Powered Expense Tracker",
-    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "description":"Als einen meiner einzigartigen Builds habe ich einen Ausgaben-Tracker mit React und Speechly API erstellt.",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG"
   },
@@ -37,22 +38,22 @@
   },
   {
     "id":"6",
-    "title":"Netflix Clone",
-    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "title":"Netflix Klon",
+    "description":"I created a Netflix Klon with authentication , and video playing functionality.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG"
   },
   {
     "id":"8",
-    "title":"Whatsapp Clone",
-    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "title":"Whatsapp Klon",
+    "description":"In this project, I created a Whatsapp Klon using Next JS with Styled Components.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG"
   },
 {
     "id":"7",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "title":"Google Klon",
+    "description":"In this project, I created a Google Klon using Next JS and Tailwind.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG"
   },
@@ -79,8 +80,8 @@
   },
   {
     "id":"12",
-    "title":"Netflix Clone",
-    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "title":"Netflix Klon",
+    "description":"I created a Netflix Klon with authentication , and video playing functionality.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG"
   }]
