@@ -1,4 +1,6 @@
-[{
+{ "greetings":"Hi, I am Sahil",
+  "intro":"I am a final year college student who loves coding,travelling,taking care of my plants and sketching.",
+  "Myprojects":[{
     "id":"1",
     "title":"Google Clone",
     "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
@@ -82,4 +84,5 @@
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG"
   }]
+}
 

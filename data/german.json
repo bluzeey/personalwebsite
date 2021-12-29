@@ -1,0 +1,87 @@
+{ "greetings":"Hallo, Mein name ist Sahil",
+  "intro":"Ich bin ein College-Student im letzten Jahr, der es liebt, zu programmieren, zu wandern und sich um meine Pflanzen zu kümmern",
+  "Myprojects":[{
+    "id":"1",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  {
+    "id":"2",
+    "title":"Whatsapp Clone",
+    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "tags":["NextJS","Styled Components"],
+    "image":"/whatsapp.PNG"
+  },
+  {
+    "id":"3",
+    "title":"News AI Application",
+    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
+    "tags":["ReactJS","AlanAi","Material-UI"],
+    "image":"/alanNews.PNG"
+  },
+  { 
+    "id":"4",
+    "title":"Voice Powered Expense Tracker",
+    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "tags":["ReactJS","Speechly"],
+    "image":"/expenseTracker.PNG"
+  },
+  {
+    "id":"5",
+    "title":"Twitter Dev",
+    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "tags":["ReactJS","Mongoose","Graphql"],
+    "image":"/twitterDev.PNG"
+  },
+  {
+    "id":"6",
+    "title":"Netflix Clone",
+    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "tags":["ReactJS","Styled Components"],
+    "image":"/netflix.PNG"
+  },
+  {
+    "id":"8",
+    "title":"Whatsapp Clone",
+    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "tags":["NextJS","Styled Components"],
+    "image":"/whatsapp.PNG"
+  },
+{
+    "id":"7",
+    "title":"Google Clone",
+    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "tags":["NextJS","Tailwind"],
+    "image":"/google.PNG"
+  },
+  { 
+    "id":"10",
+    "title":"Voice Powered Expense Tracker",
+    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "tags":["ReactJS","Speechly"],
+    "image":"/expenseTracker.PNG"
+  },
+  {
+    "id":"9",
+    "title":"News AI Application",
+    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
+    "tags":["ReactJS","AlanAi","Material-UI"],
+    "image":"/alanNews.PNG"
+  },
+  {
+    "id":"11",
+    "title":"Twitter Dev",
+    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "tags":["ReactJS","Mongoose","Graphql"],
+    "image":"/twitterDev.PNG"
+  },
+  {
+    "id":"12",
+    "title":"Netflix Clone",
+    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "tags":["ReactJS","Styled Components"],
+    "image":"/netflix.PNG"
+  }]
+}
