@@ -4,13 +4,10 @@ function Footer() {
         <footer class="bg-gray-800 w-full py-8">
             <div class="max-w-screen-xl mx-auto px-4">
                 <div class="pt-8 flex max-w-xs mx-auto items-center justify-between">
-                    <a href="#" class=" hover:text-white transition-colors duration-200">
-                        <FacebookOutlined className="h-7 text-white"/>
-                    </a>
-                    <a href="#" class=" hover:text-white transition-colors duration-200">
+                    <a href="https://github.com/bluzeey" target="_blank" class=" hover:text-white transition-colors duration-200">
                         <GitHub className="h-7 text-white"/>
                     </a>
-                    <a href="#" class=" hover:text-white transition-colors duration-200">
+                    <a href="https://www.linkedin.com/in/sahil-maheshwari-702590228/" target="_blank" class=" hover:text-white transition-colors duration-200">
                         <LinkedIn className="h-7 text-white"/>
                     </a>
 

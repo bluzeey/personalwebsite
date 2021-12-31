@@ -1,7 +1,7 @@
 { "greetings":"Hi, I am Sahil",
   "intro":"I am a final year college student who loves coding,travelling,taking care of my plants and sketching.",
   "projectHeading":"Some of my projects",
-  "Navbar":["HOME","ABOUT","PROJECTS","CONTACT"],
+  "Navbar":["HOME","RESUME","PROJECTS","CONTACT"],
   "form":["Contact Me","name","email","message","Send Message"],
   "Myprojects":[{
     "id":"1",
