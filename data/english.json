@@ -3,39 +3,39 @@
   "projectHeading":"Some of my projects",
   "Myprojects":[{
     "id":"1",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
+    "title":"Google Klon",
+    "description":"In diesem Projekt habe ich einen Google Klon mit Next JS und Tailwind erstellt.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/google-clone",
+    "live":"https://google-clone-v2.vercel.app/"
   },
   {
     "id":"2",
-    "title":"Whatsapp Clone",
-    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
+    "title":"Whatsapp Klon",
+    "description":"In diesem Projekt habe ich einen Whatsapp Klon mit Next JS und Styled-Components erstellt.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/whatsapp-clone",
+    "live":"https://whatsappv2-nextjs.vercel.app/"
   },
   {
     "id":"3",
     "title":"News AI Application",
-    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
+    "description":"In diesem Projekt habe ich mit React JS und Alan AI eine Voice Powered Ai News Application erstellt.",
     "tags":["ReactJS","AlanAi","Material-UI"],
     "image":"/alanNews.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/ai-news-app",
+    "live":"https://ai-powered-news-react.netlify.app/"
   },
   { 
     "id":"4",
     "title":"Voice Powered Expense Tracker",
-    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "description":"Als einen meiner einzigartigen Builds habe ich einen Ausgaben-Tracker mit React und Speechly API erstellt.",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/expense-tracker",
+    "live":"https://expense-trackerv2.netlify.app/"
   },
   {
     "id":"5",
@@ -43,71 +43,71 @@
     "description":"In this project, I created a Twitter Like Application using MERGN stack",
     "tags":["ReactJS","Mongoose","Graphql"],
     "image":"/twitterDev.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/social-media-app",
+    "live":"https://twitter-dev-mergn.netlify.app/"
   },
   {
     "id":"6",
-    "title":"Netflix Clone",
-    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "title":"Netflix Klon",
+    "description":"I created a Netflix Klon with authentication , and video playing functionality.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/netflix-clone",
+    "live":"https://netflix-v2.netlify.app/"
   },
   {
     "id":"8",
-    "title":"Whatsapp Clone",
-    "description":"In this project, I created a Whatsapp Clone using Next JS with Styled Components.",
-    "tags":["NextJS","Styled Components"],
-    "image":"/whatsapp.PNG",
-    "code":"",
-    "live":""
+    "title":"React Movie Search",
+    "description":"One of my earlier projects, I created a React Movie Search using Movie Database API.",
+    "tags":["ReactJS","APIs"],
+    "image":"/reactMovieSearch.PNG",
+    "code":"https://github.com/bluzeey/react-movie-search-app",
+    "live":"https://react-movie-searchv2.vercel.app/"
   },
-{
+  {
     "id":"7",
-    "title":"Google Clone",
-    "description":"In this project, I created a Google Clone using Next JS and Tailwind.",
-    "tags":["NextJS","Tailwind"],
-    "image":"/google.PNG",
-    "code":"",
-    "live":""
+    "title":"Crypto World",
+    "description":"In this project, I created a Crypto Currency Application.",
+    "tags":["ReactJS","Material-UI","RapidAPI"],
+    "image":"/cryptoWorld.PNG",
+    "code":"https://github.com/bluzeey/cryptocurrency-app",
+    "live":"https://crypto-currency-world.netlify.app/"
   },
   { 
     "id":"10",
-    "title":"Voice Powered Expense Tracker",
-    "description":"One of my unique builds, I created an expense tracker using Speechly Api with React.",
+    "title":"Video Chatting App",
+    "description":"I have been very interested in creating application with video chatting",
     "tags":["ReactJS","Speechly"],
-    "image":"/expenseTracker.PNG",
-    "code":"",
-    "live":""
+    "image":"/videoChat.PNG",
+    "code":"https://github.com/bluzeey/Video-Chatting-App",
+    "live":"https://video-chatting-app.vercel.app/"
   },
   {
     "id":"9",
-    "title":"News AI Application",
-    "description":"In this project, I created a Voice Powered Ai News Application using React JS and Alan AI",
-    "tags":["ReactJS","AlanAi","Material-UI"],
-    "image":"/alanNews.PNG",
-    "code":"",
-    "live":""
+    "title":"Fireblog",
+    "description":"I created an application using VUEjs and Firebase",
+    "tags":["VueJS","Firebase"],
+    "image":"/fireBlogs.PNG",
+    "code":"https://github.com/bluzeey/fireblog",
+    "live":"https://fireblog-alpha.vercel.app/"
   },
   {
     "id":"11",
-    "title":"Twitter Dev",
+    "title":"ECommerce Store",
     "description":"In this project, I created a Twitter Like Application using MERGN stack",
-    "tags":["ReactJS","Mongoose","Graphql"],
-    "image":"/twitterDev.PNG",
-    "code":"",
-    "live":""
+    "tags":["ReactJS","CommerceJS"],
+    "image":"/ecommerceStore.PNG",
+    "code":"https://github.com/bluzeey/ecommerce-app",
+    "live":"https://ecommerce-storev2.netlify.app/"
   },
   {
     "id":"12",
-    "title":"Netflix Clone",
-    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "title":"React Typescript Quiz",
+    "description":"I created React App with Typescript",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
-    "code":"",
-    "live":""
+    "code":"https://github.com/bluzeey/quiz-app",
+    "live":"https://quiz-with-react.netlify.app/"
   }]
 }
 
