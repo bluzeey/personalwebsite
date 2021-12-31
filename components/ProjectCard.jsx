@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-function ProjectCard({id,title,description,image,tags}) {
+function ProjectCard({id,title,description,image,tags,code,live}) {
     const router=useRouter()
     return (
         <div className="rounded overflow-hidden shadow-lg bg-white max-w-md">
@@ -17,8 +17,8 @@ function ProjectCard({id,title,description,image,tags}) {
                 ))}
             </div>
             <div className="flex p-2 justify-center">
-                <a href="" className="project-link">Code</a>
-                <a href="" className="project-link">Live</a>
+                <a target="_blank" href={code} className="project-link">Code</a>
+                <a target="_blank" href={live} className="project-link">Live</a>
             </div>
         </div>
     )

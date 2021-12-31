@@ -1,6 +1,8 @@
 { "greetings":"Hallo, Mein name ist Sahil",
   "intro":"Ich bin ein College-Student im letzten Jahr, der es liebt, zu programmieren, zu wandern und sich um meine Pflanzen zu kümmern",
   "projectHeading":"Einige meiner Projekte",
+  "Navbar":["HEIM","FORTSETZEN","PROJEKTE","KONTAKT"],
+  "form":["Kontaktiere mich","name","email","message","Nachrichten Senden"],
   "Myprojects":[{
     "id":"1",
     "title":"Google Klon",
@@ -40,7 +42,7 @@
   {
     "id":"5",
     "title":"Twitter Dev",
-    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "description":"In diesem Projekt habe ich eine Twitter-ähnliche Anwendung mit dem MERGN-Stack erstellt",
     "tags":["ReactJS","Mongoose","Graphql"],
     "image":"/twitterDev.PNG",
     "code":"https://github.com/bluzeey/social-media-app",
@@ -58,7 +60,7 @@
   {
     "id":"8",
     "title":"React Movie Search",
-    "description":"One of my earlier projects, I created a React Movie Search using Movie Database API.",
+    "description":"In einem meiner früheren Projekte habe ich eine React Movie Search mit der Movie Database API erstellt.",
     "tags":["ReactJS","APIs"],
     "image":"/reactMovieSearch.PNG",
     "code":"https://github.com/bluzeey/react-movie-search-app",
@@ -67,7 +69,7 @@
   {
     "id":"7",
     "title":"Crypto World",
-    "description":"In this project, I created a Crypto Currency Application.",
+    "description":"In diesem Projekt habe ich eine Kryptowährungsanwendung erstellt",
     "tags":["ReactJS","Material-UI","RapidAPI"],
     "image":"/cryptoWorld.PNG",
     "code":"https://github.com/bluzeey/cryptocurrency-app",
@@ -76,7 +78,7 @@
   { 
     "id":"10",
     "title":"Video Chatting App",
-    "description":"I have been very interested in creating application with video chatting",
+    "description":"Ich war sehr daran interessiert, eine Anwendung mit Video-Chat zu erstellen",
     "tags":["ReactJS","Speechly"],
     "image":"/videoChat.PNG",
     "code":"https://github.com/bluzeey/Video-Chatting-App",
@@ -85,7 +87,7 @@
   {
     "id":"9",
     "title":"Fireblog",
-    "description":"I created an application using VUEjs and Firebase",
+    "description":"Ich habe eine Anwendung mit VUEjs und Firebase erstellt",
     "tags":["VueJS","Firebase"],
     "image":"/fireBlogs.PNG",
     "code":"https://github.com/bluzeey/fireblog",
@@ -94,7 +96,7 @@
   {
     "id":"11",
     "title":"ECommerce Store",
-    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "description":"In diesem Projekt habe ich eine E-Commerce-Website mit React und CommerceJs erstellt.",
     "tags":["ReactJS","CommerceJS"],
     "image":"/ecommerceStore.PNG",
     "code":"https://github.com/bluzeey/ecommerce-app",
@@ -103,7 +105,7 @@
   {
     "id":"12",
     "title":"React Typescript Quiz",
-    "description":"I created React App with Typescript",
+    "description":"Ich habe die React App mit Typescript erstellt",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
     "code":"https://github.com/bluzeey/quiz-app",

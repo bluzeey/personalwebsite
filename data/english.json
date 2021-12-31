@@ -1,10 +1,12 @@
 { "greetings":"Hi, I am Sahil",
   "intro":"I am a final year college student who loves coding,travelling,taking care of my plants and sketching.",
   "projectHeading":"Some of my projects",
+  "Navbar":["HOME","ABOUT","PROJECTS","CONTACT"],
+  "form":["Contact Me","name","email","message","Send Message"],
   "Myprojects":[{
     "id":"1",
-    "title":"Google Klon",
-    "description":"In diesem Projekt habe ich einen Google Klon mit Next JS und Tailwind erstellt.",
+    "title":"Google Clone",
+    "description":"In this project , I created a Google Clone using Tailwind and NEXTJS.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
     "code":"https://github.com/bluzeey/google-clone",
@@ -12,8 +14,8 @@
   },
   {
     "id":"2",
-    "title":"Whatsapp Klon",
-    "description":"In diesem Projekt habe ich einen Whatsapp Klon mit Next JS und Styled-Components erstellt.",
+    "title":"Whatsapp Clone",
+    "description":"In this project , I created a Whatsapp Clone using Tailwind and NEXTJS.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG",
     "code":"https://github.com/bluzeey/whatsapp-clone",
@@ -22,7 +24,7 @@
   {
     "id":"3",
     "title":"News AI Application",
-    "description":"In diesem Projekt habe ich mit React JS und Alan AI eine Voice Powered Ai News Application erstellt.",
+    "description":"One of my unique builds, I created a voice-powered AI news application.",
     "tags":["ReactJS","AlanAi","Material-UI"],
     "image":"/alanNews.PNG",
     "code":"https://github.com/bluzeey/ai-news-app",
@@ -31,7 +33,7 @@
   { 
     "id":"4",
     "title":"Voice Powered Expense Tracker",
-    "description":"Als einen meiner einzigartigen Builds habe ich einen Ausgaben-Tracker mit React und Speechly API erstellt.",
+    "description":"I made a voice-powered Expense Tracker using Speechly API",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG",
     "code":"https://github.com/bluzeey/expense-tracker",
@@ -49,7 +51,7 @@
   {
     "id":"6",
     "title":"Netflix Klon",
-    "description":"I created a Netflix Klon with authentication , and video playing functionality.",
+    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
     "code":"https://github.com/bluzeey/netflix-clone",
@@ -105,7 +107,7 @@
     "title":"React Typescript Quiz",
     "description":"I created React App with Typescript",
     "tags":["ReactJS","Styled Components"],
-    "image":"/netflix.PNG",
+    "image":"/reactQuiz.PNG",
     "code":"https://github.com/bluzeey/quiz-app",
     "live":"https://quiz-with-react.netlify.app/"
   }]
