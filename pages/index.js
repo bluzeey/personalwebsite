@@ -9,7 +9,7 @@ export default function Home() {
         <title>Portfolio</title>
         <link rel="icon" href="/devicon.png" />
       </Head>
-      <div className="first-gradient-color">
+      <div className="first-gradient-color ">
       <Navbar/>
       <Main/>
       <Footer/>

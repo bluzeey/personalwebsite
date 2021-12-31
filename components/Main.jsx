@@ -18,7 +18,6 @@ function Main() {
           setCurrentLanguage(English)
         }
     },[language])
-    console.log(currentLanguage)
     const router=useRouter()
     return (
         <>

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+    transition-duration: 500ms;
+}
+
 @layer components{
     .link{
         @apply hover:bg-gray-600 hover:text-yellow-400 transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer rounded;
