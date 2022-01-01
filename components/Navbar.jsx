@@ -22,7 +22,7 @@ function Navbar() {
             <a href='/' className="link">{currentLanguage?.Navbar?.[0]}</a>
             <a href="assets/Resume.pdf" download="w3logo" className="link">{currentLanguage?.Navbar?.[1]}</a>
             <a href="/projects/" className="link">{currentLanguage?.Navbar?.[2]}</a>
-            <a href="#contact" className="link">{currentLanguage?.Navbar?.[3]}</a>
+            <a href={`${process.env.URL}#contact`} className="link">{currentLanguage?.Navbar?.[3]}</a>
             <div className="flex w-15 items-center">
               EN
               <Switch onClick={()=>{setLanguage(prevState=>!prevState)}}/>

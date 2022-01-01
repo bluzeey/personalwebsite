@@ -1,12 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html{
-    scroll-behavior: smooth;
-    transition-duration: 500ms;
-}
-
 @layer components{
     .link{
         @apply hover:bg-gray-600 hover:text-yellow-400 transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer rounded;
@@ -24,9 +18,11 @@ html{
         @apply rounded m-auto px-5 py-2 bg-blue-600 font-bold text-white;
     }
 }
-
 @layer utilities {
     .clip-path-slant-down-right {
         clip-path: polygon(41% 0, 100% 0%, 100% 100%, 0% 100%);
     }
+}
+html{
+    scroll-behavior: smooth;
 }
