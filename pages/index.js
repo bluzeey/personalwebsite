@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Portfolio</title>
-        <link rel="icon" href="/devicon.png" />
+        <title>Web Developer|SahilMaheshwari</title>
+        <link rel="icon" href="/myAnimatedFace.jpeg" />
       </Head>
       <div className="first-gradient-color ">
       <Navbar/>
