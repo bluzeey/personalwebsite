@@ -1,5 +1,5 @@
 { "greetings":"Hallo, Mein name ist Sahil",
-  "intro":"Ich bin ein College-Student im letzten Jahr, der es liebt, zu programmieren, zu wandern und sich um meine Pflanzen zu kümmern",
+  "intro":["Ich bin ein aufstrebender Frontend-Webentwickler, der mit React, NextJS und Vue arbeitet.","Ich bin derzeit ein Student im letzten Jahr am College, der auch gerne Hörbücher hört, Sprachen lernt und skizziert, wenn er frei ist."],
   "projectHeading":"Einige meiner Projekte",
   "Navbar":["HEIM","FORTSETZEN","PROJEKTE","KONTAKT"],
   "form":["Kontaktiere mich","name","email","message","Nachrichten Senden"],

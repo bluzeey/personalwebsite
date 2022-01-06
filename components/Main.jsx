@@ -24,7 +24,8 @@ function Main() {
         <div className="flex flex-col w-2/3 m-auto p-0 md:flex-row rounded">
           <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight">
             <h1 className="text-5xl text-transparent bg-clip-text second-gradient-color">{currentLanguage.greetings}</h1>  
-            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro}</p>
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro?.[0]}</p>
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro?.[1]}</p>
           </div>
           <Animation/>
         </div>

@@ -1,5 +1,5 @@
 { "greetings":"Hi, I am Sahil",
-  "intro":"I am a final year college student who loves coding,travelling,taking care of my plants and sketching.",
+  "intro":["I am an aspiring Frontend Web Developer who works with React,NextJS and Vue.","I am currently a final year student in college who also loves listening audiobooks, learning languages and sketching when free."],
   "projectHeading":"Some of my projects",
   "Navbar":["HOME","RESUME","PROJECTS","CONTACT"],
   "form":["Contact Me","name","email","message","Send Message"],
