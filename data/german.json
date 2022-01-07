@@ -2,7 +2,7 @@
   "intro":["Ich bin ein aufstrebender Frontend-Webentwickler, der mit React, NextJS und Vue arbeitet.","Ich bin derzeit ein Student im letzten Jahr am College, der auch gerne Hörbücher hört, Sprachen lernt und skizziert, wenn er frei ist."],
   "plants":["Hier sind meine beiden Pflanzen, um die ich mich gerade kümmere.", "Ich mag Pflanzen, weil sie wirklich zeigen, wie aus etwas so Kleinem mit der Zeit so groß werden kann."],
   "sketch":["Ich glaube, dass das Codieren dem Skizzieren ähnlich ist", "Es erfordert Geduld, eine detaillierte Zeichnung zu erstellen, und je tiefer Sie gehen, je mehr Details es gibt"],
-  "audioBooks":"▶ AudioBooks I am currently listening to:",
+  "audioBooks":"AudioBooks I am currently listening to:",
   "projectHeading":"Einige meiner Projekte",
   "Navbar":["HEIM","FORTSETZEN","PROJEKTE","KONTAKT"],
   "form":["Kontaktiere mich","name","email","message","Nachrichten Senden"],

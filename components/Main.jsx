@@ -23,7 +23,7 @@ function Main() {
     const router=useRouter()
     return (
         <>
-        <div className="flex flex-col w-2/3 m-auto md:flex-row rounded md:pb-20 md:pt-20">
+        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto md:flex-row rounded p-5">
           <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight">
             <h1 className="text-5xl text-transparent bg-clip-text second-gradient-color">{currentLanguage.greetings}</h1>  
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro?.[0]}</p>
@@ -32,7 +32,7 @@ function Main() {
           <MainImage/>
         </div>
 
-        <div className="flex flex-col w-2/3 m-auto md:flex-row rounded">
+        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto md:flex-row rounded p-5">
           <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight md:order-last">
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.plants?.[0]}</p>
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.plants?.[1]}</p>
@@ -40,7 +40,7 @@ function Main() {
           <PlantHexagon />
         </div>
 
-        <div className="flex flex-col w-2/3 m-auto md:flex-row rounded ">
+        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto md:flex-row rounded p-5">
           <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight">
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.sketch?.[0]}</p>
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.sketch?.[1]}</p>
@@ -48,8 +48,18 @@ function Main() {
           <SketchHexagon/>
         </div>
 
-        <div className="flex flex-col w-2/3 m-auto">
-            <h1 className="">{currentLanguage.audioBooks}</h1>
+        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto p-5">
+            <div className="flex flex-start text-3xl">
+            ▶
+            <span className="text-3xl text-transparent font-bold bg-clip-text second-gradient-color">
+              {currentLanguage.audioBooks}
+            </span> 
+            </div>
+            <div className="flex xs:flex-col sm:flex-row justify-around max-w-xl">
+              <img src="/German.jpg" className="w-28 p-2 m-auto" alt="Paul Noble German Audiobook" />
+              <img src="/spanish.jpg" className="w-28 p-2 m-auto" alt="Paul Noble Spanish Audiobook" />
+              <img src="/shoedog.jpg" className="w-28 p-2 m-auto" alt="Shoe Dog by Phil Knight"/>
+            </div>
         </div>
         
          <div className="file:p-4 second-gradient-color font-inter">
