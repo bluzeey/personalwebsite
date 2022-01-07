@@ -58,7 +58,7 @@ function Main() {
             <div className="flex xs:flex-col sm:flex-row justify-around max-w-xl">
               <img src="/German.jpg" className="w-28 p-2 m-auto" alt="Paul Noble German Audiobook" />
               <img src="/spanish.jpg" className="w-28 p-2 m-auto" alt="Paul Noble Spanish Audiobook" />
-              <img src="/shoedog.jpg" className="w-28 p-2 m-auto" alt="Shoe Dog by Phil Knight"/>
+              <img src="/shoeDog.jpg" className="w-28 p-2 m-auto" alt="Shoe Dog by Phil Knight"/>
             </div>
         </div>
         
