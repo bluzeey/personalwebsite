@@ -1,4 +1,4 @@
-function RoundedTriangle() {
+function MainImage() {
     return (
         <div className="m-auto">
             <svg xmlns="http://www.w3.org/2000/svg" width="268" height="268">
@@ -14,4 +14,4 @@ function RoundedTriangle() {
     )
 }
 
-export default RoundedTriangle
+export default MainImage

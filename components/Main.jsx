@@ -1,4 +1,6 @@
-import RoundedTriangle from './RoundedTriangle';
+import MainImage from './MainImage';
+import PlantHexagon from './PlantHexagon';
+import SketchHexagon from './SketchHexagon';
 import Contact from './Contact';
 import ProjectCard from './ProjectCard';
 import {useRouter} from 'next/router'
@@ -27,9 +29,29 @@ function Main() {
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro?.[0]}</p>
             <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.intro?.[1]}</p>
           </div>
-          <RoundedTriangle/>
+          <MainImage/>
         </div>
 
+        <div className="flex flex-col w-2/3 m-auto md:flex-row rounded">
+          <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight md:order-last">
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.plants?.[0]}</p>
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.plants?.[1]}</p>
+          </div>
+          <PlantHexagon />
+        </div>
+
+        <div className="flex flex-col w-2/3 m-auto md:flex-row rounded ">
+          <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight">
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.sketch?.[0]}</p>
+            <p className="text-transparent bg-clip-text second-gradient-color text-2xl">{currentLanguage.sketch?.[1]}</p>
+          </div>
+          <SketchHexagon/>
+        </div>
+
+        <div className="flex flex-col w-2/3 m-auto">
+            <h1 className="">{currentLanguage.audioBooks}</h1>
+        </div>
+        
          <div className="file:p-4 second-gradient-color font-inter">
             <h1 className=" text-center text-5xl font-bold text-transparent bg-clip-text  bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200 m-2 p-4">{currentLanguage.projectHeading}</h1>
                  <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-7">
