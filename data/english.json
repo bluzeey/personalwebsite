@@ -1,10 +1,10 @@
 { "greetings":"Hi, I am Sahil",
-  "intro":["I am an aspiring Frontend Web Developer who works with React,NextJS and Vue.","I am currently a final year student in college who also loves listening audiobooks, learning languages and sketching when free."],
+  "intro":["I am an Frontend Web Developer who works with React,NextJS and Vue.","I am currently a final year student in college who also loves listening audiobooks, learning languages and sketching when free."],
   "plants":["Here are my two plants which I am currently taking care of.", "I like planting, because it really show how something so small can become so big over time."],
   "sketch":["I believe that coding is somewhere similar to sketching", "It requires patience to create a detailed drawing, and more in depth you go the more details there are."],
   "audioBooks":"AudioBooks I am currently listening to:",
   "projectHeading":"Some of my projects",
-  "Navbar":["HOME","RESUME","PROJECTS","CONTACT"],
+  "Navbar":["HOME","ABOUT","RESUME","PROJECTS","CONTACT"],
   "form":["Contact Me","name","email","message","Send Message"],
   "Myprojects":[{
     "id":"1",
