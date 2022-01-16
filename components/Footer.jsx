@@ -1,4 +1,4 @@
-import {LinkedIn,GitHub, Markunread} from '@mui/icons-material'
+import {LinkedIn,GitHub, Markunread,Twitter} from '@mui/icons-material'
 function Footer() {
     return (
         <footer class="bg-gray-800 w-full py-8">
@@ -12,6 +12,9 @@ function Footer() {
                     </a>
                     <a href="mailto:sahilm1711@gmail.com" target="_blank" className="hover:text-white transition-colors duration-200">
                         <Markunread className="h-7 text-white"/>
+                    </a>
+                    <a href="https://twitter.com/TalkinIdeas" target="_blank" className="hover:text-white transition-colors duration-200">
+                        <Twitter className="h-7 text-white"/>
                     </a>
 
                 </div>

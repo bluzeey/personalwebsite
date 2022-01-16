@@ -16,7 +16,7 @@ function Intro() {
     },[language])
     return (
         <>
-        <div className="flex items-center p-5">
+        <div className="flex xs:flex-col lg:flex-row items-center p-5">
           <img src="codingDev.svg" className="xs:w-full h-2/5 w-2/5"/>
            <div className="font-inter flex justify-center flex-col font-bold b-1 leading-tight">
             <h1 className="text-5xl text-transparent bg-clip-text second-gradient-color">{currentLanguage.greetings}</h1>  
