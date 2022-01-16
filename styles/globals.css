@@ -17,6 +17,9 @@
     .project-link{
         @apply rounded m-auto px-5 py-2 bg-blue-600 font-bold text-white;
     }
+    .icons{
+        @apply h-16 rounded-md m-5
+    }
 }
 @layer utilities {
     .clip-path-slant-down-right {
