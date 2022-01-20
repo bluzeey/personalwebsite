@@ -58,7 +58,7 @@
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
     "code":"https://github.com/bluzeey/netflix-clone",
-    "live":"https://netflix-v2.netlify.app/"
+    "live":"https://netflix-v2-react.netlify.app/"
   },
   {
     "id":"8",
