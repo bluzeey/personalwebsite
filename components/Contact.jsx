@@ -17,8 +17,8 @@ function Contact() {
     console.log(currentLanguage)
     const [sentMessage,setsentMessage]=useState(false)
     return (
-         <div className="p-5 min-h-screen max-w-5xl mx-auto">
-             <div  className="font-inter grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 min-h-screen second-gradient-color align-middle rounded shadow-2xl">
+         <div className="p-5  max-w-5xl mx-auto">
+             <div  className="font-inter grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2  second-gradient-color align-middle rounded shadow-2xl">
                  <div id="contact" className="p-4 col-span-1">
                  <h1 className="bg-clip-text text-transparent text-yellow-500 text-center text-2xl font-bold mb-6">{currentLanguage?.form?.[0]}</h1>
                  <form target="_blank" action="7588b525780fc1da38b4ef89858b3a41" method="POST">
