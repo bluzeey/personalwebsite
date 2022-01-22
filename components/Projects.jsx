@@ -19,8 +19,8 @@ function Projects() {
     const router=useRouter()
     return (
         <div className="second-gradient-color font-inter">
-            <h1 className=" text-center text-5xl font-bold text-transparent bg-clip-text  bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200 m-2 p-4">{currentLanguage.projectHeading}</h1>
-                 <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+            <h1 className="text-center text-5xl font-bold text-transparent bg-clip-text  bg-gradient-to-r from-yellow-700 via-yellow-400 to-yellow-200  pb-2 pt-2">{currentLanguage.projectHeading}</h1>
+                 <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-evenly max-w-max gap-7 m-auto">
                   {currentLanguage.Myprojects?.slice(0,3).map(project=>(
                     <ProjectCard key={project.id} id={project.id} title={project.title} description={project.description} image={project.image} tags={project.tags} code={project.code} live={project.live}/>
                   ))}
