@@ -3,7 +3,7 @@ import {useRouter} from 'next/router'
 function ProjectCard({id,title,description,image,tags,code,live}) {
     const router=useRouter()
     return (
-        <div className="rounded overflow-hidden shadow-lg bg-white max-w-md">
+        <div className="rounded overflow-hidden shadow-lg bg-white max-w-md m-2">
             <img  className="w-full cursor-pointer" src={image} alt="Project Image"/>
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-center">{title}</div>
