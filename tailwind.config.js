@@ -12,7 +12,7 @@ module.exports = {
         },
     },
     screens: {
-      'xs': '400px',
+      'xs': '350px',
       ...defaultTheme.screens,
     },
   },
