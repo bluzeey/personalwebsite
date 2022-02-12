@@ -4,7 +4,7 @@
   "sketch":["I believe that coding is somewhere similar to sketching", "It requires patience to create a detailed drawing, and more in depth you go the more details there are."],
   "audioBooks":"AudioBooks I am currently listening to:",
   "projectHeading":"Some of my projects",
-  "Navbar":["HOME","ABOUT","RESUME","PROJECTS","CONTACT"],
+  "Navbar":["Home","About","Resume","Projects","Contact"],
   "form":["Contact Me","name","email","message","Send Message"],
   "Myprojects":[{
     "id":"1",

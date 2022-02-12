@@ -44,17 +44,17 @@ function Main() {
           <SketchHexagon/>
         </div>
 
-        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto p-5">
-            <div className="flex flex-start text-3xl">
+        <div className="flex flex-col xs:w-3/4 w-2/3 m-auto">
+            <div className="flex justify-center text-3xl p-5 mb-3">
             ▶
-            <span className="text-3xl text-transparent font-bold bg-clip-text second-gradient-color">
+            <span className=" text-transparent font-bold bg-clip-text second-gradient-color">
               {currentLanguage.audioBooks}
             </span> 
             </div>
-            <div className="flex xs:flex-col sm:flex-row justify-around max-w-xl">
-              <img src="/German.jpg" className="w-28 p-2 m-auto" alt="Paul Noble German Audiobook" />
-              <img src="/spanish.jpg" className="w-28 p-2 m-auto" alt="Paul Noble Spanish Audiobook" />
-              <img src="/shoeDog.jpg" className="w-28 p-2 m-auto" alt="Shoe Dog by Phil Knight"/>
+            <div className="flex xs:flex-col sm:flex-row justify-around max-w-xl m-auto gap-9 pb-8">
+              <img src="/German.jpg" className= "w-28 m-auto" alt="Paul Noble German Audiobook" />
+              <img src="/spanish.jpg" className="w-28 m-auto" alt="Paul Noble Spanish Audiobook" />
+              <img src="/shoeDog.jpg" className="w-28 m-auto" alt="Shoe Dog by Phil Knight"/>
             </div>
         </div>
 
