@@ -21,13 +21,10 @@
         @apply h-16 rounded-md m-5
     }
     .reverse-link{
-        @apply hover:bg-yellow-400 hover:text-black transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer rounded;
+        @apply text-yellow-500 mb-10 text-4xl font-bold hover:bg-yellow-400 hover:text-black transition duration-500 hover:scale-125 px-5 py-2 cursor-pointer rounded;
     }
 }
 @layer utilities {
-    .clip-path-slant-down-right {
-        clip-path: polygon(41% 0, 100% 0%, 100% 100%, 0% 100%);
-    }
     .clip-path-main-image{
         -webkit-clip-path: polygon(20% 42%, 36% 7%, 46% 1%, 57% 1%, 66% 7%, 87% 51%, 94% 76%, 90% 87%, 76% 95%, 25% 95%, 13% 87%, 6% 74%);
         clip-path: polygon(20% 42%, 36% 7%, 46% 1%, 57% 1%, 66% 7%, 87% 51%, 94% 76%, 90% 87%, 76% 95%, 25% 95%, 13% 87%, 6% 74%);

@@ -1,5 +1,6 @@
 import Switch from '@mui/material/Switch'
 import {useRecoilState} from 'recoil'
+import {mediaState} from '../atom/mediaAtom'
 import {languageState} from '../atom/languageAtom'
 import English from '../data/english.json';
 import German from '../data/german.json';
@@ -9,8 +10,9 @@ import { useMediaQuery } from 'react-responsive'
 function Navbar() {
     const [currentLanguage,setCurrentLanguage]=useState({})
     const [language,setLanguage]=useRecoilState(languageState)
-    const [showMenu,setShowMenu]=useState(true)
+    const [showMenu,setShowMenu]=useRecoilState(mediaState)
     const mobileOnly= useMediaQuery({query:'(min-width: 800px)'})
+    console.log(mobileOnly)
     useEffect(()=>{
         if(language){
           setCurrentLanguage(German)
@@ -19,7 +21,7 @@ function Navbar() {
         }
     },[language])
     return (mobileOnly ?
-      (<div className="flex flex-row items-center justify-around bg-clip-text text-transparent second-gradient-color text-lg p-4 font-medium">
+      (<div className="flex flex-row items-center justify-around bg-clip-text text-transparent second-gradient-color text-lg p-4 font-semibold">
             <a href='/' className="link">{currentLanguage?.Navbar?.[0]}</a>
             <a href='/about' className="link">{currentLanguage?.Navbar?.[1]}</a>
             <a href="/Resume.pdf" download="Resume.pdf" className="link">{currentLanguage?.Navbar?.[2]}</a>
@@ -43,10 +45,10 @@ function Navbar() {
           </svg>
         </div>
         <div className="flex flex-col justify-center items-center mt-[25%]">
-            <a href='/about' className="text-yellow-500 mb-10 text-4xl font-bold reverse-link">{currentLanguage?.Navbar?.[1]}</a>
-            <a href="/Resume.pdf" className="text-yellow-500 mb-10 text-4xl font-bold reverse-link" download="Resume.pdf">{currentLanguage?.Navbar?.[2]}</a>
-            <a href="/projects/" className="text-yellow-500 mb-10 text-4xl font-bold reverse-link" >{currentLanguage?.Navbar?.[3]}</a>
-            <a href={`${process.env.URL}#contact`} className="text-yellow-500 text-4xl font-bold reverse-link" >{currentLanguage?.Navbar?.[4]}</a>
+            <a href='/about' className="reverse-link">{currentLanguage?.Navbar?.[1]}</a>
+            <a href="/Resume.pdf" className=" reverse-link" download="Resume.pdf">{currentLanguage?.Navbar?.[2]}</a>
+            <a href="/projects/" className="reverse-link" >{currentLanguage?.Navbar?.[3]}</a>
+            <a href={`${process.env.URL}#contact`} className="reverse-link" >{currentLanguage?.Navbar?.[4]}</a>
         </div>
 
     </div>))

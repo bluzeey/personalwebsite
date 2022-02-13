@@ -1,9 +1,13 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
+import dynamic from 'next/dynamic'
 import Intro from '../components/Intro'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+
+const DynamicNavbar=dynamic(() => import('../components/Navbar'),{ssr:false})
+
+
 export default function Home() {
   return (
     <div>
@@ -12,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/myAnimatedFace.jpeg" />
       </Head>
       <div className="first-gradient-color ">
-      <Navbar/>
+      <DynamicNavbar/>
       <Intro/>
       <Projects/>
       <Contact/>
