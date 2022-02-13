@@ -26,7 +26,7 @@ function Navbar() {
             <a href='/about' className="link">{currentLanguage?.Navbar?.[1]}</a>
             <a href="/Resume.pdf" download="Resume.pdf" className="link">{currentLanguage?.Navbar?.[2]}</a>
             <a href="/projects/" className="link">{currentLanguage?.Navbar?.[3]}</a>
-            <a href={`${process.env.URL}#contact`} className="link">{currentLanguage?.Navbar?.[4]}</a>
+            <a href={`#contact`} className="link">{currentLanguage?.Navbar?.[4]}</a>
             <div className="flex w-15 items-center">
               EN
               <Switch onClick={()=>{setLanguage(prevState=>!prevState)}}/>
@@ -48,7 +48,7 @@ function Navbar() {
             <a href='/about' className="reverse-link">{currentLanguage?.Navbar?.[1]}</a>
             <a href="/Resume.pdf" className=" reverse-link" download="Resume.pdf">{currentLanguage?.Navbar?.[2]}</a>
             <a href="/projects/" className="reverse-link" >{currentLanguage?.Navbar?.[3]}</a>
-            <a href={`${process.env.URL}#contact`} className="reverse-link" >{currentLanguage?.Navbar?.[4]}</a>
+            <a href={`#contact`} className="reverse-link" >{currentLanguage?.Navbar?.[4]}</a>
         </div>
 
     </div>))
