@@ -50,7 +50,6 @@ function Navbar() {
             <a href="/projects/" className="reverse-link" >{currentLanguage?.Navbar?.[3]}</a>
             <a href={`#contact`} className="reverse-link" >{currentLanguage?.Navbar?.[4]}</a>
         </div>
-
     </div>))
   )
 }

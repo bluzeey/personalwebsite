@@ -17,7 +17,7 @@ function ProjectCard({id,title,description,image,tags,code,live}) {
                 ))}
             </div>
             <div className="flex p-2 justify-center">
-                <a target="_blank" href={code} className="project-link">Code</a>
+                <a target="_blank" href={code} className="project-code">Code</a>
                 <a target="_blank" href={live} className="project-link">Live</a>
             </div>
         </div>
