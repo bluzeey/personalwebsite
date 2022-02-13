@@ -39,10 +39,10 @@ function Intro() {
                 <img className="icons" alt="TypeScript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
             </div>
         </div>
-          {/* <div className="grid justify-center p-5">
+        <div className="grid justify-center p-5">
             <h1 className="text-3xl text-center mb-5 font-bold text-transparent bg-clip-text second-gradient-color">Days I have Coded</h1>
             <GithubCalendar username="bluzeey"/>
-          </div> */}
+          </div> 
         </>
         
     )
