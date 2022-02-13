@@ -4,7 +4,7 @@
   "sketch":["Ich glaube, dass das Codieren dem Skizzieren ähnlich ist", "Es erfordert Geduld, eine detaillierte Zeichnung zu erstellen, und je tiefer Sie gehen, je mehr Details es gibt"],
   "audioBooks":"AudioBooks I am currently listening to:",
   "projectHeading":"Einige meiner Projekte",
-  "Navbar":["HEIM","ETWA","FORTSETZEN","PROJEKTE","KONTAKT"],
+  "Navbar":["Heim","Etwa","Fortsetzen","Projekte","Kontakt"],
   "form":["Kontaktiere mich","name","email","message","Nachrichten Senden"],
   "Myprojects":[{
     "id":"1",
