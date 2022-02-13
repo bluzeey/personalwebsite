@@ -9,7 +9,7 @@
   "Myprojects":[{
     "id":"1",
     "title":"Google Clone",
-    "description":"In this project , I created a Google Clone using Tailwind and NEXTJS.",
+    "description":"Created a mobile responsive Google Clone with complete search functionalities by linking to the Google API. Made the design more robust with the help of JIT Tailwind. Added pagination to the results displayed using state management.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
     "code":"https://github.com/bluzeey/google-clone",

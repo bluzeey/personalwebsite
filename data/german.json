@@ -9,7 +9,7 @@
   "Myprojects":[{
     "id":"1",
     "title":"Google Klon",
-    "description":"In diesem Projekt habe ich einen Google Klon mit Next JS und Tailwind erstellt.",
+    "description":"Erstellung eines auf Mobilgeräte reagierenden Google-Klons mit vollständigen Suchfunktionen durch Verknüpfung mit der Google-API. Das Design wurde mit Hilfe von JIT Tailwind robuster gemacht. Paginierung zu den Ergebnissen hinzugefügt, die mithilfe der Zustandsverwaltung angezeigt werden.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
     "code":"https://github.com/bluzeey/google-clone",
