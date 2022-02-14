@@ -8,8 +8,8 @@
   "form":["Kontaktiere mich","name","email","message","Nachrichten Senden"],
   "Myprojects":[{
     "id":"1",
-    "title":"Google Klon",
-    "description":"Erstellung eines auf Mobilgeräte reagierenden Google-Klons mit vollständigen Suchfunktionen durch Verknüpfung mit der Google-API. Das Design wurde mit Hilfe von JIT Tailwind robuster gemacht. Paginierung zu den Ergebnissen hinzugefügt, die mithilfe der Zustandsverwaltung angezeigt werden.",
+    "title":"Suchmaschinen-anwendung",
+    "description":"Erstellung einer auf Mobilgeräte ansprechenden Suchmaschine mit vollständigen Suchfunktionen durch Verknüpfung mit der Google-Such-API. Das Design wurde mit Hilfe von JIT Tailwind robuster gemacht und ist von Google inspiriert. Paginierung zu Ergebnissen hinzugefügt, die mithilfe der Zustandsverwaltung angezeigt werden.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
     "code":"https://github.com/bluzeey/google-clone",
@@ -17,8 +17,8 @@
   },
   {
     "id":"2",
-    "title":"Whatsapp Klon",
-    "description":"In diesem Projekt habe ich einen Whatsapp Klon mit Next JS und Styled-Components erstellt.",
+    "title":"Chat-Anwendung",
+    "description":"Eine E-Mail-basierte Chat-Anwendung in NextJS mit React, Styled-Komponenten, Firebase für die Persistenz und Firebase Auth für die Authentifizierung. Das Design ist stark vom Desktop-Client von WhatsApp inspiriert.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG",
     "code":"https://github.com/bluzeey/whatsapp-clone",

@@ -8,8 +8,8 @@
   "form":["Contact Me","name","email","message","Send Message"],
   "Myprojects":[{
     "id":"1",
-    "title":"Google Clone",
-    "description":"Created a mobile responsive Google Clone with complete search functionalities by linking to the Google API. Made the design more robust with the help of JIT Tailwind. Added pagination to the results displayed using state management.",
+    "title":"Search Engine Application",
+    "description":"Created a mobile responsive search engine with complete search functionalities by linking to Google Search API. Made the design more robust with the help of JIT Tailwind and is inspired by Google.Added pagination to results displayed using state management.",
     "tags":["NextJS","Tailwind"],
     "image":"/google.PNG",
     "code":"https://github.com/bluzeey/google-clone",
@@ -17,8 +17,8 @@
   },
   {
     "id":"2",
-    "title":"Whatsapp Clone",
-    "description":"In this project , I created a Whatsapp Clone using Tailwind and NEXTJS.",
+    "title":"Chat Application",
+    "description":"An email-based chat application in NextJS with React, Styled-components, Firebase for persistence and Firebase Auth for authentication. The design is heavily inspired by WhatsApp's Desktop client.",
     "tags":["NextJS","Styled Components"],
     "image":"/whatsapp.PNG",
     "code":"https://github.com/bluzeey/whatsapp-clone",
