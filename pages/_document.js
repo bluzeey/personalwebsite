@@ -11,7 +11,7 @@ export default function Document() {
           <meta 
             name="image"
             property="og:image" 
-            content="%PUBLIC_URL%/shoeDog.PNG" 
+            content="%PUBLIC_URL%/shoeDog.jpg" 
           />
           <meta 
             property="og:description" 
