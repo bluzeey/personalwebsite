@@ -4,8 +4,6 @@ import German from '../data/german.json';
 import {languageState} from '../atom/languageAtom';
 import {useRecoilState} from 'recoil';
 import {useEffect,useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHtml5,faCss3Alt,faJsSquare,faReact,faNode,faFigma,} from '@fortawesome/free-brands-svg-icons'
 function Intro() {
     const[language,setLanguage]=useRecoilState(languageState)
     const [currentLanguage,setCurrentLanguage]=useState({})
