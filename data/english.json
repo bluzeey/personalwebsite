@@ -27,7 +27,7 @@
   {
     "id":"3",
     "title":"News AI Application",
-    "description":"One of my unique builds, I created a voice-powered AI news application.",
+    "description":"One of my unique builds, I created a voice-powered AI news application. The application is uses Alan AI studio for listening to user queries. The design is based on Material-UI framework. ",
     "tags":["ReactJS","AlanAi","Material-UI"],
     "image":"/alanNews.PNG",
     "code":"https://github.com/bluzeey/ai-news-app",

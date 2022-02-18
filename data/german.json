@@ -27,7 +27,7 @@
   {
     "id":"3",
     "title":"News AI Application",
-    "description":"In diesem Projekt habe ich mit React JS und Alan AI eine Voice Powered Ai News Application erstellt.",
+    "description":"Als eines meiner einzigartigen Builds habe ich eine sprachgesteuerte KI-Nachrichtenanwendung erstellt. Die Anwendung verwendet Alan AI Studio zum Abhören von Benutzeranfragen. Das Design basiert auf dem Material-UI-Framework.",
     "tags":["ReactJS","AlanAi","Material-UI"],
     "image":"/alanNews.PNG",
     "code":"https://github.com/bluzeey/ai-news-app",
