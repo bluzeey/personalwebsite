@@ -54,7 +54,7 @@
   {
     "id":"6",
     "title":"Netflix Clone",
-    "description":"I created a Netflix Clone with authentication , and video playing functionality.",
+    "description":"Created with mobile-first principle designs an OTT Platform having authentication with the Firebase Auth and video playing functionality using ReactJS and Styled Components (reusable Compound Components). The design is heavily inspired by Netflix.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
     "code":"https://github.com/bluzeey/netflix-clone",
