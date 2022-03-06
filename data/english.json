@@ -36,7 +36,7 @@
   { 
     "id":"4",
     "title":"Voice Powered Expense Tracker",
-    "description":"I made a voice-powered Expense Tracker using Speechly API",
+    "description":"I made a voice-powered Expense Tracker using Speechly API. The application uses Speechly API for voice recognition and responding voice commands for adding transactions.",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG",
     "code":"https://github.com/bluzeey/expense-tracker",
@@ -53,7 +53,7 @@
   },
   {
     "id":"6",
-    "title":"Netflix Klon",
+    "title":"Netflix Clone",
     "description":"I created a Netflix Clone with authentication , and video playing functionality.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
@@ -99,7 +99,7 @@
   {
     "id":"11",
     "title":"ECommerce Store",
-    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "description":"In this project, I created a Twitter Like Application using MERGN stack. It ",
     "tags":["ReactJS","CommerceJS"],
     "image":"/ecommerceStore.PNG",
     "code":"https://github.com/bluzeey/ecommerce-app",

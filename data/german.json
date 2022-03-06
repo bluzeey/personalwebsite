@@ -36,7 +36,7 @@
   { 
     "id":"4",
     "title":"Voice Powered Expense Tracker",
-    "description":"Als einen meiner einzigartigen Builds habe ich einen Ausgaben-Tracker mit React und Speechly API erstellt.",
+    "description":"Ich habe mit der Speechly API einen sprachgesteuerten Expense Tracker erstellt. Die Anwendung verwendet die Speechly-API für die Spracherkennung und die Beantwortung von Sprachbefehlen zum Hinzufügen von Transaktionen.",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG",
     "code":"https://github.com/bluzeey/expense-tracker",
