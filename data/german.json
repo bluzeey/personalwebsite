@@ -63,7 +63,7 @@
   {
     "id":"8",
     "title":"React Movie Search",
-    "description":"In einem meiner früheren Projekte habe ich eine React Movie Search mit der Movie Database API erstellt.",
+    "description":"Bei einem meiner früheren Projekte habe ich eine React Movie Search-Anwendung erstellt, die die Movie Database API verwendet, um Details zu verschiedenen Filmen zu erhalten.",
     "tags":["ReactJS","APIs"],
     "image":"/reactMovieSearch.PNG",
     "code":"https://github.com/bluzeey/react-movie-search-app",
@@ -81,7 +81,7 @@
   { 
     "id":"10",
     "title":"Video Chatting App",
-    "description":"Ich war sehr daran interessiert, eine Anwendung mit Video-Chat zu erstellen",
+    "description":"Ich war sehr daran interessiert, Bewerbungen mit Video-Chats zu erstellen. Es beinhaltet Video-Chats mit verschiedenen Personen über ihre IDs.",
     "tags":["ReactJS","Speechly"],
     "image":"/videoChat.PNG",
     "code":"https://github.com/bluzeey/Video-Chatting-App",
@@ -90,7 +90,7 @@
   {
     "id":"9",
     "title":"Fireblog",
-    "description":"Ich habe eine Anwendung mit VUEjs und Firebase erstellt",
+    "description":"Ich habe eine Anwendung mit VUEjs und Firebase erstellt. Es ist eine Webanwendung zum Posten von Blogs, die die Funktion zum Hinzufügen, Entfernen und Aktualisieren von Posts enthält.",
     "tags":["VueJS","Firebase"],
     "image":"/fireBlogs.PNG",
     "code":"https://github.com/bluzeey/fireblog",
@@ -99,7 +99,7 @@
   {
     "id":"11",
     "title":"ECommerce Store",
-    "description":"In diesem Projekt habe ich eine E-Commerce-Website mit React und CommerceJs erstellt.",
+    "description":"Erstellung einer Online-E-Commerce-Anwendung mit Commerce JS für die gesamte Geschäftslogik. Es kann verschiedene Artikel kaufen und wichtige Finanzinformationen von Kunden speichern.",
     "tags":["ReactJS","CommerceJS"],
     "image":"/ecommerceStore.PNG",
     "code":"https://github.com/bluzeey/ecommerce-app",
@@ -108,7 +108,7 @@
   {
     "id":"12",
     "title":"React Typescript Quiz",
-    "description":"Ich habe die React App mit Typescript erstellt",
+    "description":"Ich habe die React App mit Typescript erstellt. Es ist ein Quizspiel mit 10 Fragen, das wie Trivia funktioniert.",
     "tags":["ReactJS","Styled Components"],
     "image":"/netflix.PNG",
     "code":"https://github.com/bluzeey/quiz-app",

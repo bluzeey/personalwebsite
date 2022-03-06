@@ -63,7 +63,7 @@
   {
     "id":"8",
     "title":"React Movie Search",
-    "description":"One of my earlier projects, I created a React Movie Search using Movie Database API.",
+    "description":"One of my earlier projects, I created a React Movie Search Application which uses Movie Database API to get details of different movies.",
     "tags":["ReactJS","APIs"],
     "image":"/reactMovieSearch.PNG",
     "code":"https://github.com/bluzeey/react-movie-search-app",
@@ -72,7 +72,7 @@
   {
     "id":"7",
     "title":"Crypto World",
-    "description":"In this project, I created a Crypto Currency Application.",
+    "description":"In this project, I created a Crypto Currency Application. It displays economic statistics of different crytocurrencies.",
     "tags":["ReactJS","Material-UI","RapidAPI"],
     "image":"/cryptoWorld.PNG",
     "code":"https://github.com/bluzeey/cryptocurrency-app",
@@ -81,7 +81,7 @@
   { 
     "id":"10",
     "title":"Video Chatting App",
-    "description":"I have been very interested in creating application with video chatting",
+    "description":"I have been very interested in creating application with video chatting. It includes video chatting to different people through their IDs.",
     "tags":["ReactJS","Speechly"],
     "image":"/videoChat.PNG",
     "code":"https://github.com/bluzeey/Video-Chatting-App",
@@ -90,7 +90,7 @@
   {
     "id":"9",
     "title":"Fireblog",
-    "description":"I created an application using VUEjs and Firebase",
+    "description":"I created an application using VUEjs and Firebase. It is a blog posting web application which includes the function of adding ,removing ,updating posts.",
     "tags":["VueJS","Firebase"],
     "image":"/fireBlogs.PNG",
     "code":"https://github.com/bluzeey/fireblog",
@@ -99,7 +99,7 @@
   {
     "id":"11",
     "title":"ECommerce Store",
-    "description":"In this project, I created a Twitter Like Application using MERGN stack. It ",
+    "description":"Made an online e-commerce application using Commerce JS for all the business logic. It can purchase different items and store important financial information of clients.",
     "tags":["ReactJS","CommerceJS"],
     "image":"/ecommerceStore.PNG",
     "code":"https://github.com/bluzeey/ecommerce-app",
@@ -108,7 +108,7 @@
   {
     "id":"12",
     "title":"React Typescript Quiz",
-    "description":"I created React App with Typescript",
+    "description":"I created React App with Typescript. It is a quiz game of 10 questions which works like Trivia.",
     "tags":["ReactJS","Styled Components"],
     "image":"/reactQuiz.PNG",
     "code":"https://github.com/bluzeey/quiz-app",
