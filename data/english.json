@@ -45,7 +45,7 @@
   {
     "id":"5",
     "title":"Twitter Dev",
-    "description":"In this project, I created a Twitter Like Application using MERGN stack",
+    "description":"In this project, I created a full stack social media application having design based on Twitter. The application can create, update and delete posts on real time. ",
     "tags":["ReactJS","Mongoose","Graphql"],
     "image":"/twitterDev.PNG",
     "code":"https://github.com/bluzeey/social-media-app",

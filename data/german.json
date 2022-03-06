@@ -45,7 +45,7 @@
   {
     "id":"5",
     "title":"Twitter Dev",
-    "description":"In diesem Projekt habe ich eine Twitter-ähnliche Anwendung mit dem MERGN-Stack erstellt",
+    "description":"In diesem Projekt habe ich eine Full-Stack-Social-Media-Anwendung erstellt, deren Design auf Twitter basiert. Die Anwendung kann Beiträge in Echtzeit erstellen, aktualisieren und löschen.",
     "tags":["ReactJS","Mongoose","Graphql"],
     "image":"/twitterDev.PNG",
     "code":"https://github.com/bluzeey/social-media-app",
