@@ -17,15 +17,6 @@
   },
   {
     "id":"2",
-    "title":"Chat Application",
-    "description":"An email-based chat application in NextJS with React, Styled-components, Firebase for persistence and Firebase Auth for authentication. The design is heavily inspired by WhatsApp's Desktop client.",
-    "tags":["NextJS","Styled Components"],
-    "image":"/whatsapp.PNG",
-    "code":"https://github.com/bluzeey/whatsapp-clone",
-    "live":"https://whatsappv2-nextjs.vercel.app/"
-  },
-  {
-    "id":"3",
     "title":"News AI Application",
     "description":"One of my unique builds, I created a voice-powered AI news application. The application is uses Alan AI studio for listening to user queries. The design is based on Material-UI framework. ",
     "tags":["ReactJS","AlanAi","Material-UI"],
@@ -34,13 +25,22 @@
     "live":"https://ai-powered-news-react.netlify.app/"
   },
   { 
-    "id":"4",
+    "id":"3",
     "title":"Voice Powered Expense Tracker",
     "description":"I made a voice-powered Expense Tracker using Speechly API. The application uses Speechly API for voice recognition and responding voice commands for adding transactions.",
     "tags":["ReactJS","Speechly"],
     "image":"/expenseTracker.PNG",
     "code":"https://github.com/bluzeey/expense-tracker",
     "live":"https://expense-trackerv2.netlify.app/"
+  },
+  {
+    "id":"4",
+    "title":"Chat Application",
+    "description":"An email-based chat application in NextJS with React, Styled-components, Firebase for persistence and Firebase Auth for authentication. The design is heavily inspired by WhatsApp's Desktop client.",
+    "tags":["NextJS","Styled Components"],
+    "image":"/whatsapp.PNG",
+    "code":"https://github.com/bluzeey/whatsapp-clone",
+    "live":"https://whatsappv2-nextjs.vercel.app/"
   },
   {
     "id":"5",
