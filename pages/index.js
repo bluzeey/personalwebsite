@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic'
 import Intro from '../components/Intro'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
+import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 
 const DynamicNavbar=dynamic(() => import('../components/Navbar'),{ssr:false})
@@ -19,6 +20,7 @@ export default function Home() {
       <DynamicNavbar/>
       <Intro/>
       <Projects/>
+      <Testimonials/>
       <Contact/>
       <Footer/>
       </div>
