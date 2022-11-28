@@ -11,7 +11,7 @@ function Testimonials() {
               <div className="md:flex md:flex-row">
                 <div className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C5603AQFGuEtHVanORg/profile-displayphoto-shrink_200_200/0/1617970571703?e=1669248000&v=beta&t=ueBZ8S4ckmyWiDWlL71pG_q_CPiKnQQ0bpCTfwdawU4"
+                    src="https://pbs.twimg.com/profile_images/1495768383979077634/jvtsjevD_400x400.jpg"
                     className="rounded-full shadow-md"
                     alt="woman avatar"
                   />
